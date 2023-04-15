@@ -69,8 +69,53 @@
 			<input type="submit" value="Invia" id="submitButton">
 		</form>
 	</main>
+	<script>
+		// Usiamo la funzione console.log() come la printf() in "C"
+		console.log("Hello, world!");
+  
+		// Possiamo definire le variabili in 3 diversi modi, ma a noi per ora interessano solo 2
+		var x = 5;
+		const y = 10;
+  
+		// Possiamo fare operazioni matematiche di questo tipo
+		var z = x + y;
+		console.log("La somma di x + y è: " + z);
+  
+		// Possiamo usare if-else in maniera simile al "C"
+		if (z > 10) {
+		  	console.log("La somma è maggiore di 10");
+		} else if (z == 10) {
+			console.log("La somma è uguale a 10");
+      	} else {
+		  	console.log("La somma è minore di 10");
+		}
+  
+		// Possiamo eseguire cicli for esattamente come in "C"
+		for (var i = 0; i < 5; i++) {
+		  console.log("Il valore di 'i' è" + i);
+		}
+  
+		// Possiamo definire delle funzioni, in maniera simile al "C"
+		function greet(name) {
+		  console.log("Hello, " + name + "!");
+		}
+  
+		greet("Alice");
+		greet("Bob");
 
-	<script src="script.js"></script>
+		// Qui introduciamo il concetto di "oggetto" in javascript
+		var person = {
+			firstName: "John",
+			lastName: "Doe",
+			age: 30,
+			eyeColor: "blue"
+		};
+
+		// Possiamo accedere alle proprietà di un oggetto usando il carattere '.' (e.g. oggetto.proprietà) oppure oggetto['proprietà']
+		console.log("Il nome della persona è: " + person.firstName);
+		console.log("L'età della persona è: " + person['age']);
+	  </script>
+	<!--<script src="script.js"></script>-->
 </body>
 <footer>
     <p>Questo è il footer della pagina.</p>
