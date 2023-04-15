@@ -1,5 +1,5 @@
-const submitButton = document.querySelector("input[type='submit']");
-const tableBody = document.querySelector("tbody");
+const submitButton = document.getElementById("submitButton");
+const tableBody = document.getElementById("tableBody");
 
 submitButton.addEventListener("click", function(event) {
   event.preventDefault(); // Previeni l'invio del form
