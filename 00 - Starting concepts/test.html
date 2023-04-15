@@ -69,6 +69,7 @@
 			<input type="submit" value="Invia" id="submitButton">
 		</form>
 	</main>
+	<!--
 	<script>
 		// Usiamo la funzione console.log() come la printf() in "C"
 		console.log("Hello, world!");
@@ -108,14 +109,18 @@
 			firstName: "John",
 			lastName: "Doe",
 			age: 30,
-			eyeColor: "blue"
+			eyeColor: "blue",
+			nomeMetodo: function(){
+				return "Sono dentro il metodo!";
+			}
 		};
 
 		// Possiamo accedere alle proprietà di un oggetto usando il carattere '.' (e.g. oggetto.proprietà) oppure oggetto['proprietà']
 		console.log("Il nome della persona è: " + person.firstName);
-		console.log("L'età della persona è: " + person['age']);
-	  </script>
-	<!--<script src="script.js"></script>-->
+		console.log("L'età della persona è: " + person.age);
+		console.log(person.nomeMetodo())
+	  </script> -->
+	<script src="script.js"></script>
 </body>
 <footer>
     <p>Questo è il footer della pagina.</p>

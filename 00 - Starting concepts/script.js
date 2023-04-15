@@ -1,6 +1,6 @@
 const submitButton = document.getElementById("submitButton");
 const tableBody = document.getElementById("tableBody");
-
+submitButton.click();
 submitButton.addEventListener("click", function(event) {
   event.preventDefault(); // Previeni l'invio del form
 

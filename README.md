@@ -7,3 +7,11 @@
 5) Connettere a un file css chiamato "css.css"
 6) Impostare lo sfondo della tabella sul colore #000
 7) Impostare il testo all'interno della tabella sul colore #fff
+
+
+
+ESERCIZIO #2
+
+1) create una pagina HTML
+2) Create una scacchiera usando HTML, CSS
+3) Create la stessa scacchiera usando solamente JS
