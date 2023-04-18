@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    width: 50px;
+    height: 50px;
+  }
+  .white {
+    background-color: #f1f1f1;
+  }
+  .black {
+    background-color: #808080;
+  }
+  
